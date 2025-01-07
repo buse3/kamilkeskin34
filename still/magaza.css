@@ -1,0 +1,152 @@
+ /* Genel ayarlar */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Konteyner */
+        .menu-konteyner {
+            width: 1024px;
+            margin: 0 auto; /* Ortalamak için */
+            background-color: #333;
+        }
+
+        /* Menü */
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .menu li {
+            float: left;
+            width: 20%; /* 5 menü için eşit genişlik */
+            text-align: center;
+        }
+
+        .menu a {
+            display: block;
+            padding: 15px 0;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .menu a:hover {
+            background-color: #575757;
+        }
+
+        /* Float clear */
+        .temizleyici::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Slider */
+        .slider-konteyneri {
+            width: 1024px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .slider {
+            width: 3072px; /* 3 slider görseli için toplam genişlik */
+        }
+
+        .slider img {
+            float: left;
+            width: 1024px;
+            height: 400px;
+        }
+
+        /* Resim Kutuları */
+        .resim-kutusu-konteyneri {
+            width: 1024px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .resim-kutusu {
+            float: left;
+            width: 48%; /* 2 kutu yan yana için genişlik */
+            margin: 1%;
+            text-align: center;
+        }
+
+        .resim-kutusu a {
+            display: block;
+            border: 2px solid #ccc;
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        .resim-kutusu a:hover {
+            border-color: #575757;
+        }
+
+        .resim-kutusu img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Yazı Alanı */
+        .yazi-konteyneri {
+            width: 990px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        .yazi-konteyneri h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .yazi-konteyneri p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .yazi-konteyneri b {
+            font-weight: bold;
+        }
+
+        .yazi-konteyneri i {
+            font-style: italic;
+        }
+
+        .yazi-konteyneri u {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .alt-bilgi {
+            width: 990px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .alt-bilgi a {
+            color: #00bfff;
+            text-decoration: none;
+        }
+
+        .alt-bilgi a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+    .menu li {
+        width: 100%;
+        text-align: left;
+    }
+}

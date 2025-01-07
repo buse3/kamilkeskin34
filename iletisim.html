@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Kamil Keskin Tesettür Giyim</title>
+     <link rel="stylesheet" type="text/css"  href="still/iletisim.css">
+</head>
+<body>
+    <div class="menu-konteyner">
+        <ul class="menu clearfix">
+            <li><a href="magaza.html">Mağaza</a></li>
+            <li><a href="alisveris.html">Alışveriş</a></li>
+            <li><a href="taksitler.html">Taksitler</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </div>
+
+    <!-- İletişim Formu -->
+    <div class="iletisim-form-konteyner">
+        <h2>İletişim Formu</h2>
+        <form action="#" method="post">
+            <label for="name">Adınız</label>
+            <input type="text" id="name" name="name" required placeholder="Adınızı girin">
+
+            <label for="email">E-posta Adresiniz</label>
+            <input type="email" id="email" name="email" required placeholder="E-posta adresinizi girin">
+
+            <label for="password">Şifreniz</label>
+            <input type="password" id="password" name="password" required placeholder="Şifrenizi girin">
+
+            <label for="subject">Konu</label>
+            <select id="subject" name="subject" required>
+                <option value="general">Genel Sorular</option>
+                <option value="support">Destek</option>
+                <option value="sales">Satış</option>
+            </select>
+
+            <label for="message">Mesajınız</label>
+            <textarea id="message" name="message" required placeholder="Mesajınızı buraya yazın"></textarea>
+
+            <label for="subscribe">
+                <input type="checkbox" id="subscribe" name="subscribe"> Bültene abone olmak istiyorum
+            </label>
+
+            <label for="contact-method">İletişim Yöntemi</label>
+            <input type="radio" id="phone" name="contact-method" value="phone" required>
+            <label for="phone">Telefon</label>
+            <input type="radio" id="email-contact" name="contact-method" value="email" required>
+            <label for="email-contact">E-posta</label>
+
+            <input type="submit" value="Gönder">
+            <input type="reset" value="Sıfırla">
+        </form>
+    </div>
+
+    <div class="footer">
+         <p>Her kadının şık görünmeye hakkı vardır. Kamil Keskin olarak bizler de tesettürlü kadınlar için de hem muhafazakâr hem şık kıyafet seçeneklerini sizler için bir araya getirdik. Her zevke hitap eden ve her ihtiyacı karşılayan çeşitli tesettür giyim modelleri arasından size uygun olanı seçebilirsiniz.
+		</b> Bize ulaşmak için <a href=" info@kamilkeskin.com.tr"> info@kamilkeskin.com.tr</a> adresine e-posta gönderin.</p>
+        <p>Adres: <a href="https://goo.gl/maps/h2xSFJFa4fG2" target="_blank">Şirinevler Mahallesi
+Fetih Caddesi, No:26 Bahçelievler / İstanbul 0(212) 452 25 57</a></p>
+    </div>
+</body>
+</html>
